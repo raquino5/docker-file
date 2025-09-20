@@ -23,3 +23,11 @@ It runs a simple React app that displays `<h1>Codin 1</h1>` on `http://localhost
 2. Build the Docker image:
    ```bash
    docker build -t aquino_ralph_coding_assignment11 .
+
+3. Run the container:
+
+    docker run -p 7775:7775 --name aquino_ralph_coding_assignment11 aquino_ralph_coding_assignment11
+
+4. Open your browser and go to:
+
+    http://localhost:7775
