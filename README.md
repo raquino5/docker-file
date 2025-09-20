@@ -17,7 +17,7 @@ It runs a simple React app that displays `<h1>Codin 1</h1>` on `http://localhost
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git clone https://github.com/raquino5/docker-file.git
    cd YOUR_REPO
 
 2. Build the Docker image:
