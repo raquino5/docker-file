@@ -14,21 +14,17 @@ This project sets up a development environment using Docker.
 It runs a simple React app that displays `<h1>Codin 1</h1>` on [http://localhost:7775](http://localhost:7775).
 
 ## Setup Instructions
-
-## 1. Clone the repository
-git clone https://github.com/raquino5/docker-file.git
-cd docker-file
-
-## Setup Instructions
 1. Clone the repository:
+   ```bash
    git clone https://github.com/raquino5/docker-file.git
    cd docker-file
 
 2. Build the Docker image:
+   ```bash
    docker build -t aquino_ralph_coding_assignment11 .
 
 3. Run the container:
-
+   ```bash
     docker run -p 7775:7775 --name aquino_ralph_coding_assignment11 aquino_ralph_coding_assignment11
 
 4. Open your browser and go to:
